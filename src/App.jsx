@@ -1,13 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { createContext } from "react"
 
-function App() {
-  const [count, setCount] = useState(0)
+function App({ children }) {
+
+  export const AuthContext = createContext(null)
+  const name = 'abdullah al noman'
+
+  const authInfo = {
+    name,
+  }
 
   return (
     <>
+      <AuthContext.Provider value={authInfo}>
+        {children}
+      </AuthContext.Provider>
     </>
   )
 }
