@@ -17,6 +17,10 @@ const Router = createBrowserRouter([
     {
         path : '*',
         element : <h1>Error Found</h1>
+    },
+    {
+        path : '/google',
+        element : <div>Google</div>
     }
 ])
 
