@@ -3,7 +3,7 @@ import LogoImage from '../assets/logo.png'
 
 const Header = () => {
     return (
-        <div className='flex-col flex gap-5 items-center justify-center py-3'>
+        <div className='flex-col flex gap-5 items-center justify-center py-3 '>
             <div className="logo">
                 <img src={LogoImage} alt="" />
             </div>
