@@ -1,3 +1,4 @@
+import Footer from "../components/Footer"
 import Header from "../components/Header"
 import LatestNews from "../components/LatestNews"
 
@@ -13,6 +14,7 @@ const Home = () => {
             <nav>
 
             </nav>
+            <Footer></Footer>
         </div>
     )
 }
