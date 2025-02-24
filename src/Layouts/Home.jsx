@@ -19,7 +19,7 @@ const Home = () => {
                 <aside className="left col-span-3">
                     <LeftNavbar></LeftNavbar>
                 </aside>
-                <section className="col-span-6">Main Content</section>
+                <section className="col-span-6">News Content</section>
                 <aside className="col-span-3">Right content</aside>
             </main>
         </div>
