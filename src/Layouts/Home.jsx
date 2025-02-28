@@ -6,12 +6,15 @@ import Navbar from "../components/Navbar"
 const Home = () => {
     return (
         <div className="font-poppins">
+            {/* header section added */}
             <header>
                 <Header></Header>
+            {/* news marquee section added */}
                 <section className="md:w-11/12 mx-auto">
                     <LatestNews></LatestNews>
                 </section>
             </header>
+            {/* navbar added */}
             <nav className="md:w-11/12 mx-auto">
                 <Navbar></Navbar>
             </nav>
