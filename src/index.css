@@ -6,3 +6,9 @@
 @theme {
     --font-poppins: "Poppins",
 }
+
+.active{
+    background-color: #E7E7E7;
+    color: black;
+    font-weight: 600 ;
+}
