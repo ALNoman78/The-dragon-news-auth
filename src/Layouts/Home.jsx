@@ -1,6 +1,7 @@
 import Header from "../components/Header"
 import LatestNews from "../components/LatestNews"
 import LeftNavbar from "../components/layout-component/LeftNavbar"
+import RightNav from "../components/layout-component/RightNav"
 import Navbar from "../components/Navbar"
 
 const Home = () => {
@@ -9,21 +10,25 @@ const Home = () => {
             {/* header section added */}
             <header>
                 <Header></Header>
-            {/* news marquee section added */}
+                {/* news marquee section added */}
                 <section className="md:w-11/12 mx-auto">
                     <LatestNews></LatestNews>
                 </section>
             </header>
             {/* navbar added */}
             <nav className="md:w-11/12 mx-auto">
+                <h3>navbar</h3>
                 <Navbar></Navbar>
             </nav>
             <main className="md:w-11/12 mx-auto pt-6 md:grid grid-cols-12 gap-3">
                 <aside className="left col-span-3">
+                    <h3>left navbar</h3>
                     <LeftNavbar></LeftNavbar>
                 </aside>
                 <section className="col-span-6 font-medium">News Content</section>
-                <aside className="col-span-3">Right content</aside>
+                <aside className="col-span-3">
+                    <RightNav></RightNav>
+                </aside>
             </main>
         </div>
     )
