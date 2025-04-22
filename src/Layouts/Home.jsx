@@ -25,7 +25,7 @@ const Home = () => {
                     <LeftNavbar></LeftNavbar>
                 </aside>
                 <section className="col-span-6 font-medium">
-                    <h3>Dragon News Content</h3>
+                    <h3 className="mb-5">Dragon News Content</h3>
                     <Outlet></Outlet>
                 </section>
 
