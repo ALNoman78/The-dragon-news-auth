@@ -11,7 +11,7 @@ const FindUs = () => {
                     <FaFacebook></FaFacebook>
                     Facebook
                 </button>
-                <button className="btn join-item justify-start justify-start">
+                <button className="btn join-item justify-start">
                     <FaTwitter></FaTwitter>
                     Twitter
                 </button>

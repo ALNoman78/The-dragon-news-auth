@@ -9,6 +9,7 @@ const Router = createBrowserRouter([
         children:[
             {
                 path : '/',
+                // by default home will be show category 1 data which will be step up by navigate then i use [path name and category id]
                 element: <Navigate to={'/category/01'}></Navigate>
             },
             {
